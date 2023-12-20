@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
-const base = '/slick-portfolio-svelte';
+const base = '/myspace';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
