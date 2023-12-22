@@ -63,10 +63,6 @@ export const HOME: HomePageParams = {
 			link: 'sata1@asu.edu'
 		},
 		{
-			platform: Platform.Youtube,
-			link: 'https://www.youtube.com'
-		},
-		{
 			platform: Platform.Instagram,
 			link: 'https://www.instagram.com/shazebata/'
 		}

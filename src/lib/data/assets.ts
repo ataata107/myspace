@@ -81,7 +81,8 @@ const Assets = {
 	SpringBoot: a('springboot.svg'),
 	Solr: a('solr.svg'),
 	Snowflake: a('snowflake.svg'),
-	Bash: a('bash.svg')
+	Bash: a('bash.svg'),
+	RaspberryPi: a('rpi.svg')
 };
 
 export default Assets;

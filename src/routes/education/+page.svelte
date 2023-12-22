@@ -64,6 +64,7 @@
 								<div class="text-[var(--accent-text)] text-[0.9em] font-200 mb-2">
 									{education.location}  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp {education.period.from.toLocaleString('default', { month: 'long' })} {(education.period.from.getFullYear())} - 
 									{education.period.to.toLocaleString('default', { month: 'long' })} {(education.period.to.getFullYear())}
+									&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp {education.gpa}
 								</div>
 								<div class="row flex-wrap gap-1">
 									{#each education.subjects as subject}

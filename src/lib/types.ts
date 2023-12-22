@@ -70,6 +70,7 @@ export interface Education extends Item {
 	};
 	subjects: Array<string>;
 	degree: string;
+	gpa: string;
 }
 
 export interface PageParams {

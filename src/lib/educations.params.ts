@@ -12,6 +12,7 @@ export const MY_EDUCATIONS: Array<Education> = [
 		period: { from: new Date(2023, 7, 17), to: new Date(2025, 4, 1) },
 		shortDescription: '',
 		slug: 'education-item',
+		gpa: '4.0 GPA',
 		subjects: ['Distributed Database Systems', 'Foundation of Algorithms', 'Multimedia and Web Databases', 'Software Design', 'Cloud Computing', 'Software Security']
 	},
 	{
@@ -24,6 +25,7 @@ export const MY_EDUCATIONS: Array<Education> = [
 		period: { from: new Date(2016, 6, 1), to: new Date(2020, 5, 1) },
 		shortDescription: '',
 		slug: 'education-item-2',
+		gpa: '',
 		subjects: ['Data Structures', 'Data Mining For Business Intelligence', 'Analog and Digital Electronics', 'Microprocessors and Peripheral Devices']
 	}
 ];

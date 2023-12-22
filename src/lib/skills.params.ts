@@ -12,23 +12,15 @@ const MY_SKILLS = [
 		slug: 'js',
 		color: 'yellow',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			"JavaScript is the dynamic force driving my web development journey, adding interactivity and functionality to the digital canvas. As a versatile scripting language, JavaScript enables me to create responsive, client-side applications. From manipulating the Document Object Model (DOM) to handling asynchronous operations with promises and AJAX, JavaScript is at the core of user interactions. Libraries and frameworks like React and Vue further amplify its capabilities, simplifying the development of complex, single-page applications. With the advent of ECMAScript standards and modern features, such as arrow functions and async/await, JavaScript continually evolves, ensuring that it remains the heartbeat of dynamic and engaging web experiences.",
 		logo: Assets.JavaScript,
 		name: 'Javascript'
-	}),
-	s({
-		slug: 'ts',
-		color: 'blue',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.TypeScript,
-		name: 'Typescript'
 	}),
 	s({
 		slug: 'css',
 		color: 'blue',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			"CSS has been the aesthetic soul of my web development endeavors, shaping the visual appeal of digital experiences. As a style sheet language, CSS empowers me to breathe life into HTML's structural elements, defining layouts, colors, fonts, and animations. Its cascading nature and selector specificity provide a fine-grained control over styling, while preprocessor tools like Sass enhance maintainability. Whether ensuring responsiveness for various devices or creating visually captivating interfaces, CSS remains my artistic palette, seamlessly blending with HTML and JavaScript to bring designs to life on the web.",
 		logo: Assets.CSS,
 		name: 'CSS'
 	}),
@@ -36,25 +28,9 @@ const MY_SKILLS = [
 		slug: 'html',
 		color: 'orange',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			"In my web development journey, HTML has been my foundational language, providing the essential structure for crafting engaging and interactive digital content. Through its semantic tags and evolving standards like HTML5, I've seamlessly organized and presented information, laying the groundwork for compelling user experiences. HTML's synergy with CSS and JavaScript allows me to create dynamic, responsive websites, making it an indispensable tool in my arsenal for building everything from simple web pages to complex, feature-rich applications.",
 		logo: Assets.HTML,
 		name: 'HTML'
-	}),
-	s({
-		slug: 'sass',
-		color: 'pink',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.Sass,
-		name: 'Sass'
-	}),
-	s({
-		slug: 'reactjs',
-		color: 'cyan',
-		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.ReactJs,
-		name: 'React Js'
 	}),
 	s({
 		slug: 'aws',
@@ -127,11 +103,39 @@ const MY_SKILLS = [
 		name: 'Python'
 	}),
 	s({
-		slug: 'svelte',
+		slug: 'rpi',
+		color: 'cyan',
+		description:"In my exploration of Raspberry Pi, I've delved into its versatile applications, particularly in the realm of robotics and electronics. The integration of Raspberry Pi with various hardware components has opened up a realm of possibilities for creating sophisticated and interactive projects. One notable aspect of my work involved seamlessly integrating Raspberry Pi with the Pi Camera module. This integration facilitated the development of vision-based applications, including image and video processing, object detection, and even applications in computer vision. The Pi Camera's compact design and high-quality imaging capabilities made it an ideal companion for Raspberry Pi-based projects requiring visual input. Further expanding the scope of my projects, I integrated Raspberry Pi with Pixhawk, a popular open-source autopilot system. This integration allowed me to delve into the realm of autonomous vehicles and drones, leveraging Pixhawk's capabilities for navigation, stabilization, and control. Raspberry Pi served as a central processing unit, enhancing the autonomy and intelligence of the overall system. In the domain of motion control, Raspberry Pi's integration with servo motors and BLDC (Brushless DC) motors presented exciting opportunities. This integration enabled the creation of projects involving robotic arms, pan-and-tilt mechanisms, and even small-scale drones. By interfacing Raspberry Pi with motor controllers, I could precisely control the movement of motors, leading to dynamic and interactive applications. Moreover, the GPIO (General Purpose Input/Output) pins on Raspberry Pi provided a flexible interface for connecting and controlling various sensors, actuators, and electronic components. This versatility allowed me to explore a wide range of projects, from temperature and humidity monitoring to home automation systems. In summary, my experience with Raspberry Pi extends beyond its role as a compact and affordable computer. Through seamless integration with Pi Camera, Pixhawk, servo motors, and BLDC motors, I've harnessed its potential for diverse applications, ranging from computer vision and autonomous systems to sophisticated motion control projects. The GPIO capabilities further enhance its utility, making Raspberry Pi a powerful tool for innovative and hands-on electronics and robotics projects.",
+		logo: Assets.RaspberryPi,
+		name: 'RaspberryPi'
+	}),
+	s({
+		slug: 'c++',
+		color: 'pink',
+		description:"In my journey with C++, I've harnessed its efficiency and flexibility, particularly in the dynamic realm of competitive programming. C++ has proven to be a reliable and high-performance language, enabling me to tackle a diverse array of problems spanning dynamic programming, graph algorithms, hashing, and greedy strategies. Dynamic programming challenges, known for their emphasis on optimal substructure and overlapping subproblems, find a natural home in C++. The language's support for array manipulation, efficient memory allocation, and ease of implementing recursive algorithms has been instrumental in crafting solutions that optimize time and space complexities. Whether solving classic problems like the knapsack dilemma or dynamic connectivity scenarios, C++ empowers me to create elegant and efficient solutions. Graph algorithms, a staple in competitive programming, showcase C++'s prowess in manipulating data structures. With its robust standard template library (STL), C++ facilitates the implementation of graph traversal algorithms like Depth-First Search (DFS) and Breadth-First Search (BFS). The language's support for custom data structures allows for efficient representation of graphs, contributing to streamlined problem-solving. Hashing, a powerful technique for quick data retrieval, is seamlessly implemented in C++. The language's unordered_map and unordered_set containers simplify the process of building hash tables, enabling fast lookups and insertions. This is particularly beneficial when addressing problems involving frequency counting, duplicate detection, or associative mapping. In the realm of greedy algorithms, where optimal local choices lead to a global solution, C++ provides the necessary tools for efficient implementation. The language's straightforward syntax and built-in data structures allow for the swift translation of algorithmic ideas into functional code. This proves invaluable when navigating problems involving scheduling, interval selection, or optimal resource allocation. In essence, my journey with C++ in competitive programming has been characterized by its adaptability and efficiency. From dynamic programming intricacies to graph traversal nuances, hashing complexities, and greedy strategy implementation, C++ has consistently proven to be a powerful ally in crafting effective and performant solutions for a diverse range of problems.",
+		logo: Assets.Cpp,
+		name: 'C++'
+	}),
+	s({
+		slug: 'mongodb',
 		color: 'orange',
-		description: svelte,
-		logo: Assets.Svelte,
-		name: 'Svelte'
+		description:"Node.js, with its asynchronous, event-driven architecture, seamlessly integrates with MongoDB through the Mongoose ODM, forming a powerful duo for building scalable and efficient applications. Mongoose simplifies database interactions, allowing developers to define schemas, model data, and execute queries in a straightforward manner within the Node.js environment. This integration streamlines the development process, making it more intuitive for Node.js developers to work with MongoDB. The MongoDB aggregation pipeline stands out as a robust feature for data processing within the database. Leveraging the aggregation pipeline, I can perform complex transformations on data directly within MongoDB, reducing the need for extensive server-side processing. This pipeline allows for tasks such as filtering, grouping, and aggregating data, providing a powerful mechanism to extract meaningful insights from large datasets. The aggregation pipeline's versatility, when used in conjunction with Node.js and Mongoose, enhances the overall efficiency and scalability of data processing in modern application development.",
+		logo: Assets.MongoDB,
+		name: 'MongoDb'
+	}),
+	s({
+		slug: 'postgres',
+		color: 'yellow',
+		description:"PostgreSQL, a robust and open-source relational database management system, has been a cornerstone in my database-centric projects, showcasing its capabilities in concurrency control, distributed transaction management through Docker, query optimization, fragmentation, and replication. Concurrency control in PostgreSQL is handled through Multi-Version Concurrency Control (MVCC), which allows multiple transactions to occur concurrently without compromising data integrity. This mechanism ensures that each transaction sees a consistent snapshot of the data, preventing conflicts and ensuring reliable and concurrent access to the database. Leveraging PostgreSQL in a Dockerized environment has provided a seamless approach to distributed transaction management. Docker containers encapsulate the database instances, allowing for easy deployment, scaling, and management of distributed systems. This flexibility is particularly beneficial in microservices architectures, enabling the orchestration of database containers to support distributed transactions across diverse components. Query optimization in PostgreSQL is a standout feature, with the database engine employing sophisticated algorithms and optimization techniques to ensure efficient execution plans. Techniques like indexing, query rewriting, and statistics-based optimization contribute to minimizing query response times, even for complex analytical queries. Addressing fragmentation concerns, PostgreSQL employs a robust storage engine that handles data storage and retrieval efficiently. The autovacuum process helps manage and reclaim storage space, preventing fragmentation and maintaining optimal performance over time. PostgreSQL's support for replication plays a pivotal role in ensuring high availability and fault tolerance. Through mechanisms like streaming replication and logical replication, I've implemented setups where data is replicated across multiple nodes, providing redundancy and enabling failover strategies for uninterrupted service. In summary, PostgreSQL excels in various aspects crucial for database management, including concurrency control, distributed transaction management through Docker, query optimization, fragmentation handling, and replication. Its versatility and adherence to SQL standards make it a powerful choice for applications demanding robustness, scalability, and performance in diverse and dynamic environments.",
+		logo: Assets.PostgreSQL,
+		name: 'PostgresSql'
+	}),
+	s({
+		slug: 'nodejs',
+		color: 'blue',
+		description:"In my journey as a developer, Node.js has emerged as a game-changer in the realm of server-side JavaScript. Its non-blocking, event-driven architecture has been instrumental in crafting scalable applications that can efficiently handle multiple connections concurrently. The npm package manager stands out as a treasure trove of libraries, empowering me to seamlessly integrate third-party modules into my projects and expedite development. Node.js excels in microservices and API development, with Express.js providing a robust framework for creating RESTful APIs and web applications. This lightweight and modular approach makes it an ideal choice for building scalable, server-side components. As a full-stack development enthusiast, I've embraced frameworks like MEAN and MERN, where Node.js plays a pivotal role in unifying the server and client sides. The single-threaded event loop and the underlying libuv library ensure high concurrency and responsiveness, contributing to the overall efficiency of the development process. Node.js's versatility extends to the realm of serverless applications, where platforms like AWS Lambda seamlessly support its runtime. This has allowed me to focus on writing functions without the hassle of managing infrastructure, opening up new possibilities for streamlined and scalable application architectures. In essence, Node.js has become a cornerstone of my development toolkit, prized for its speed, scalability, and adaptability. Its event-driven nature, rich package ecosystem, and applicability across various architectural paradigms make it an invaluable asset in crafting modern and responsive web applications.",
+		logo: Assets.NodeJs,
+		name: 'NodeJs'
 	})
 ];
 
