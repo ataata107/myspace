@@ -20,7 +20,7 @@
 		? `${getMonthName(experience.period.to.getMonth())} ${experience.period.to.getFullYear()}`
 		: 'Present';
 
-	const period = `${from} - ${to} · ${months}`;
+	const period = `${from} - ${to}`;
 </script>
 
 <Card margin="0px 0px 20px 0px" tiltDegree={2} href={`${base}/experience/${experience.slug}`}>

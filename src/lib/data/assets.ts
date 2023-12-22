@@ -82,7 +82,8 @@ const Assets = {
 	Solr: a('solr.svg'),
 	Snowflake: a('snowflake.svg'),
 	Bash: a('bash.svg'),
-	RaspberryPi: a('rpi.svg')
+	RaspberryPi: a('rpi.svg'),
+	Matlab: a('matlab.svg')
 };
 
 export default Assets;
