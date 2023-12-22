@@ -56,13 +56,14 @@
 									src={getAssetURL(education.logo)}
 									alt={education.organization}
 									height="50"
-									width="50"
+									width="150"
 									class="mb-5"
 								/>
 								<div class="text-[1.3em]">{education.degree}</div>
 								<div>{education.organization}</div>
 								<div class="text-[var(--accent-text)] text-[0.9em] font-200 mb-2">
-									{education.location} · {getTimeDiff(education.period.from, education.period.to)}
+									{education.location}  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp {education.period.from.toLocaleString('default', { month: 'long' })} {(education.period.from.getFullYear())} - 
+									{education.period.to.toLocaleString('default', { month: 'long' })} {(education.period.to.getFullYear())}
 								</div>
 								<div class="row flex-wrap gap-1">
 									{#each education.subjects as subject}

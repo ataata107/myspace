@@ -5,6 +5,7 @@ export enum Platform {
 	Linkedin = 'linkedin',
 	Email = 'email',
 	Facebook = 'facebook',
+	Instagram = 'instagram',
 	Youtube = 'youtube'
 }
 
@@ -57,6 +58,7 @@ export interface Experience extends Project {
 	company: string;
 	location: string;
 	contract: ContractType;
+	longDescription: string;
 }
 
 export interface Education extends Item {

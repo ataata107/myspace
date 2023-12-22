@@ -39,6 +39,8 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 			return Icons.Email;
 		case Platform.Twitter:
 			return Icons.Twitter;
+		case Platform.Instagram:
+			return Icons.Instagram;
 		case Platform.Youtube:
 			return Icons.Youtube;
 	}
@@ -49,32 +51,29 @@ export const HOME: HomePageParams = {
 	name: 'Shazeb',
 	lastName: 'Ata',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		"Hey, I'm Shazeb, a tech enthusiast on a relentless quest for innovation. Whether I'm crafting intricate algorithms for competitive programming, building scalable systems, or diving into the world of machine learning, versatility is my forte. I am currently pursuing Master's in Computer Science from Arizona State University, with a knack for languages like C++, Python, and Java. But it doesn't stop there—web development with NodeJs, JavaScript, and HTML/CSS adds a dash of creativity to my coding palette. Beyond the lines of code, I'm a competitive programming aficionado, constantly honing my skills to stay at the forefront of the tech landscape. Let's not just solve problems; let's create solutions, break barriers, and make every line of code a masterpiece!",
 	links: [
-		{ platform: Platform.GitHub, link: 'https://github.com/' },
+		{ platform: Platform.GitHub, link: 'https://github.com/ataata107' },
 		{
 			platform: Platform.Linkedin,
-			link: 'https://www.linkedin.com/'
-		},
-		{
-			platform: Platform.Twitter,
-			link: 'https://twitter.com/'
-		},
-		{
-			platform: Platform.StackOverflow,
-			link: 'https://stackoverflow.com/'
+			link: 'https://www.linkedin.com/in/shazeb-ata-05a127154/'
 		},
 		{
 			platform: Platform.Email,
-			link: 'riadh-adrani@hotmail.fr'
+			link: 'sata1@asu.edu'
 		},
 		{
 			platform: Platform.Youtube,
 			link: 'https://www.youtube.com'
 		},
 		{
+			platform: Platform.Instagram,
+			link: 'https://www.instagram.com/shazebata/'
+		}
+		,
+		{
 			platform: Platform.Facebook,
-			link: 'https://www.facebook.com'
+			link: 'https://www.facebook.com/shazeb.ata/'
 		}
 	]
 };
@@ -96,7 +95,7 @@ export const SKILLS: SkillsPageParams = {
 
 export const RESUME: ResumePageParams = {
 	title: 'Resumé',
-	item: ''
+	item: 'https://drive.google.com/file/d/15o4rAebHWpLzyg-NU8LXI66rVNV_7Zs0/view?usp=share_link'
 };
 
 export const SEARCH: SearchPageParams = {

@@ -8,6 +8,7 @@ const a = (light: string, dark?: string): Asset =>
 	dark ? { dark: gh(dark), light: gh(light) } : gh(light);
 
 const Assets = {
+	ASU: a('asu.svg'),
 	AWS: a('aws.svg'),
 	Bootstrap: a('bootstrap.svg'),
 	C: a('c.svg'),
@@ -16,7 +17,9 @@ const Assets = {
 	Django: a('django.svg'),
 	FastApi: a('fastapi'),
 	Flask: a('flask.svg'),
+	Fujifilm: a('fujifilm.svg'),
 	Go: a('go.svg'),
+	Hilabs: a('hilabs.svg'),
 	Kafka: a('kafka.svg'),
 	Neo4j: a('neo4j.svg'),
 	Nginx: a('nginx.svg'),
@@ -47,6 +50,7 @@ const Assets = {
 	SolidJs: a('solid.svg'),
 	Electron: a('electron.png'),
 	Flutter: a('flutter.svg'),
+	IITR: a('iitr.svg'),
 	Java: a('java.png'),
 	AdonisJs: a('adonis.png'),
 	Android: a('android.png'),
@@ -70,7 +74,14 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Scala: a('scala.svg'),
+	MySql: a('mysql.svg'),
+	Spark: a('spark.svg'),
+	SpringBoot: a('springboot.svg'),
+	Solr: a('solr.svg'),
+	Snowflake: a('snowflake.svg'),
+	Bash: a('bash.svg')
 };
 
 export default Assets;
