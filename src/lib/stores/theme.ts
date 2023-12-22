@@ -9,7 +9,7 @@ const updateLocalStorage = (value: boolean) => {
 	}
 };
 
-export const theme = writable<boolean>(false);
+export const theme = writable<boolean>(true);
 
 export const toggleTheme = (value?: boolean) =>
 	theme.update((it) => {
